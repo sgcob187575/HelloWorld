@@ -15,6 +15,7 @@
 		12E6957D24B570FA007958BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6957B24B570FA007958BA /* LaunchScreen.storyboard */; };
 		12E6958824B570FB007958BA /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6958724B570FB007958BA /* HelloWorldTests.swift */; };
 		12E6959324B570FB007958BA /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6959224B570FB007958BA /* HelloWorldUITests.swift */; };
+		12E695A124B57849007958BA /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12E695A024B57849007958BA /* exportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		12E6958E24B570FB007958BA /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E6959224B570FB007958BA /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		12E6959424B570FB007958BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E695A024B57849007958BA /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		12E6956424B570F7007958BA = {
 			isa = PBXGroup;
 			children = (
+				12E695A024B57849007958BA /* exportOptions.plist */,
 				12E6956F24B570F7007958BA /* HelloWorld */,
 				12E6958624B570FB007958BA /* HelloWorldTests */,
 				12E6959124B570FB007958BA /* HelloWorldUITests */,
@@ -243,6 +246,7 @@
 				12E6957D24B570FA007958BA /* LaunchScreen.storyboard in Resources */,
 				12E6957A24B570FA007958BA /* Preview Assets.xcassets in Resources */,
 				12E6957724B570FA007958BA /* Assets.xcassets in Resources */,
+				12E695A124B57849007958BA /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,14 +440,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
-				DEVELOPMENT_TEAM = NTXR9F489V;
+				DEVELOPMENT_TEAM = SC4BFS9VQW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dte.HelloWorld;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc3.hdc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,14 +461,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
-				DEVELOPMENT_TEAM = NTXR9F489V;
+				DEVELOPMENT_TEAM = SC4BFS9VQW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dte.HelloWorld;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc3.hdc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
