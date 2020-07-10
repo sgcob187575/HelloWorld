@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1291C5AB24B862EE00A66F76 /* adhoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1291C5AA24B862EE00A66F76 /* adhoc.plist */; };
 		12E6957124B570F7007958BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6957024B570F7007958BA /* AppDelegate.swift */; };
 		12E6957324B570F7007958BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6957224B570F7007958BA /* SceneDelegate.swift */; };
 		12E6957524B570F7007958BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E6957424B570F7007958BA /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1291C5AA24B862EE00A66F76 /* adhoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = adhoc.plist; sourceTree = "<group>"; };
 		12E6956D24B570F7007958BA /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E6957024B570F7007958BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E6957224B570F7007958BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		12E6956424B570F7007958BA = {
 			isa = PBXGroup;
 			children = (
+				1291C5AA24B862EE00A66F76 /* adhoc.plist */,
 				12E695A024B57849007958BA /* exportOptions.plist */,
 				12E6956F24B570F7007958BA /* HelloWorld */,
 				12E6958624B570FB007958BA /* HelloWorldTests */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1291C5AB24B862EE00A66F76 /* adhoc.plist in Resources */,
 				12E6957D24B570FA007958BA /* LaunchScreen.storyboard in Resources */,
 				12E6957A24B570FA007958BA /* Preview Assets.xcassets in Resources */,
 				12E6957724B570FA007958BA /* Assets.xcassets in Resources */,
@@ -439,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 2.2;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
 				DEVELOPMENT_TEAM = SC4BFS9VQW;
 				ENABLE_PREVIEWS = YES;
@@ -462,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2.0;
+				CURRENT_PROJECT_VERSION = 2.2;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
 				DEVELOPMENT_TEAM = SC4BFS9VQW;
 				ENABLE_PREVIEWS = YES;
